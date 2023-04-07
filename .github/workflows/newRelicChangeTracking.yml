@@ -12,7 +12,7 @@ jobs:
         with:
           apiKey: ${{ secrets.NEW_RELIC_API_KEY }}
           guid: ${{ secrets.NEW_RELIC_DEPLOYMENT_ENTITY_GUID }}
-          version: "0.0.1"
+          version: "0.0.2"
           user: "${{ github.actor }}"
           description: "Automated Marker via Github Actions"
           deploymentType: "OTHER"
